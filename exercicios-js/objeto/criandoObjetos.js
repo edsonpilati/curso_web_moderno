@@ -46,5 +46,4 @@ console.log(filha);
 // Uma função famosa que retorna Objeto...
 const fromJSON = JSON.parse('{"info": "Sou um JSON"}')
 console.log(fromJSON.info);
-console.log(typeof fromJSON);
-
+console.log(typeof fromJSON); 
