@@ -1,6 +1,13 @@
 const ferrari = {
     modelo: 'F40',
-    velMax: 324
+    velMax: 324,
+    acelerar() {
+
+    },
+    acelerar2 = function() {
+
+    }
+
 }
 
 const volvo = {
@@ -9,6 +16,10 @@ const volvo = {
 }
 
 //todo objeto aponta para Object.prototype como pai
+
+console.log(typeof ferrari);
+
+
 
 console.log(ferrari.__proto__);//Acessa o objeto pai de ferrari
 console.log(ferrari.__proto__ === Object.prototype); //verifica se o objeto pai de ferrari é Object.prototype = true
