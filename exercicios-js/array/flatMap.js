@@ -14,3 +14,4 @@ const nota2 = escola.flatMap(getNotasDaTurma)
 console.log(notas2);
 
 
+
